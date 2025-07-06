@@ -7,3 +7,5 @@ const db = new sqlite3.Database('db.db', (err) =>{
         console.log('Connected to the database.');
     }
 });
+
+export default db;
